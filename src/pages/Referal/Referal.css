@@ -1,0 +1,147 @@
+.container1{
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+
+}
+.ref-container2{
+    display:flex;
+    flex-direction:column;
+    height: auto;
+    padding: 25px 0;
+    background-color: #384883;
+    
+    }
+    .arrow{
+        float: right;
+        color: white;
+    }
+.container3{
+        
+        height: 150px;
+        background-image:linear-gradient(to right, rgba(38,51,100,255), rgba(122,145,232,255));
+        border-radius: 15px;
+        margin:100px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+.btn3{
+ 
+    width:95%;
+    height:70%;
+    background-image: linear-gradient(to right, rgba(69,81,125,255), rgba(126,147,226,255));
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    border: #788fde;
+    cursor: pointer;
+}
+.box1{
+    padding:60px;
+    /* width:40%; */
+    flex-basis: 400px;
+    flex-grow: 1;
+    text-align:left;
+
+}
+.box2{
+    /* width:60%; */
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+.ref-text1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom:40px;
+    color: #000f48;
+}
+.text2{
+
+    font-size: 40px;
+    font-weight: bold;
+    margin:40px;
+    color:white;
+}
+.btndiv{
+    margin-top: 35px;
+}
+.btn1{
+    width: 200px;
+    background-color: #384883;
+    color: white;
+    margin-right:20px;
+    padding:10px;
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+    font-weight: bold;
+    border: 1px solid #384883;
+    cursor: pointer;
+}
+.btn2{
+    width: 200px;
+    background-color: white;
+    color: #384883;
+    padding:10px;
+    font-weight: bold;
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+    border: 1px solid #384883;
+    cursor: pointer;
+}
+.steps{
+    width:225px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    
+}
+.stepsbox{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.cardi{
+    height: 200px;
+    width:225px;
+}
+.cardt{
+    height:50px;
+    width:225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+    background-image: linear-gradient(#5e6c96,#384883);
+   
+}
+
+@media only screen and (max-width:800px) {
+    .ref-text1{
+     font-size: 50px;
+    }
+    .btn3{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .ref-text1{
+        font-size: 30px;
+    }
+    .box1{
+        padding: 10px;
+    }
+}

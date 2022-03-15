@@ -1,0 +1,87 @@
+@import "../../global.scss";
+.join {
+  width: 100vw;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .sections {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 85%;
+      height: 650px;
+    }
+    .jc-card {
+      width: 100%;
+      height: auto;
+      color: white;
+      background-color: $mainColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      ul {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        .jc-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 40px;
+            height: 32px;
+            margin: 5px;
+          }
+          li {
+            letter-spacing: 1px;
+            font-weight: 300;
+            line-height: 24px;
+            margin: 15px;
+          }
+        }
+      }
+    }
+    .jc-wrapper {
+      width: 100%;
+      display: flex;
+      height: auto;
+      //   background-image: url(../../assets/joinBG.png);
+      background-color: white;
+      color: $mainColor;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .items {
+        // margin-top: -300px;
+        span {
+          font-size: 64px;
+          font-weight: 300;
+        }
+        .icons {
+          display: flex;
+          .icon {
+            margin: 12px;
+            height: 45px !important;
+            width: 45px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:600px){
+  .join .sections .jc-wrapper .items span{
+    font-size: 35px;
+  }
+}

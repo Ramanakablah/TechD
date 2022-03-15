@@ -1,0 +1,61 @@
+@import "../../global.scss";
+.vision{
+    background-color: $mainColor;
+    // height: calc((100vh - 70px)/2) !important;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    .container-left{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       .left{
+          img{
+            height: 250px;
+            width: 250px;
+              margin-right: 30px;
+          }
+       }
+       .right{
+        h1{
+            font-size: 36px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 300;
+        }
+       }
+    }
+    .container-right{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        .left{
+           img{
+               height: 250px;
+               width: 250px;
+               margin-right: 30px;
+           }
+        }
+        .right{
+          h1{
+              font-size: 36px;
+              letter-spacing: 3px;
+              margin-bottom: 10px;
+              font-weight: 900;
+          }
+          p{
+              font-size: 20px;
+              font-weight: 300;
+          }
+        }
+    }
+}

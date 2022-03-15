@@ -1,0 +1,30 @@
+@import "../../global.scss";
+.why{
+    background-color: white;
+    // height: calc((100vh - 70px)/2) !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+     color: $mainColor;
+     letter-spacing: 3px;
+     font-size: 34px;
+     font-weight: 900;
+     margin: 10px;
+    }
+    .w-cardContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .w-card{
+            height: 140px;
+            width: 130px;
+            border-radius: 10px;
+            background-color: #829BF5;
+            margin: 5px;
+            box-shadow: 10px 10px 20px rgb(208, 215, 223);
+        }
+    }
+}

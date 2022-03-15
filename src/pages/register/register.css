@@ -1,0 +1,138 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.cont {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  flex-wrap: wrap;
+  background-image: url("./Sign\ in.png");
+  background-size: calc(100%) 100vh;
+  background-repeat: no-repeat;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.fs {
+  font-family: FontAwesome;
+}
+
+.leftcont {
+  flex-basis: 400px;
+  padding-top: 50px 40px 50px 40px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.rightcont {
+  flex-basis: 400px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: #384883;
+  letter-spacing: 3px;
+  font-size: 34px;
+  font-weight: 900;
+  margin: 100px auto 40px auto;
+  width: 80%;
+}
+
+input {
+  margin: 10px auto;
+  height: 25px;
+  width: 50%;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 14px;
+  border: none;
+  background-color: #C4C4C4;
+
+}
+
+.sideheading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 34px;
+  font-weight: 900;
+  margin: 30px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+.signupbtn {
+  width: 110px;
+  height: 38px;
+  margin-top: 15px;
+  background-color: #384883;
+  color: white;
+  border-color: white;
+  border-radius: 15px;
+}
+
+.signinbtn {
+  width: 110px;
+  height: 38px;
+  margin: 27px auto 10px;
+  background-color: #384883;
+  color: white;
+  border-radius: 15px;
+}
+
+.or {
+  color: #5F5B5B;
+  margin: 15px auto;
+  margin-bottom: none;
+}
+
+.img11 {
+  margin-left: auto;
+}
+
+.img1 {
+  width: 35px;
+  height: 35px;
+  margin: 9px;
+}
+
+.textt {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  color: #E5E5E5;
+  width: 40%;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin: 10px auto 8px auto;
+}
+
+@media only screen and (max-width:850px){
+    .cont{
+      background: none;
+    }
+    .leftcont{
+      flex-grow: 1;
+    }
+    .rightcont{
+      flex-grow: 1;
+    }
+    .textt{
+      color: rgb(124, 121, 121);
+    }
+    .sideheading{
+      color: #5F5B5B;
+    }
+}

@@ -1,0 +1,29 @@
+.contact {
+    // height: 100vh;
+    height: 1200px;
+    height: 100%;
+    // width: 100vw;
+    overflow-y:hidden ;
+    scroll-behavior: smooth;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    .section{
+      height: calc(100vh - 70px)/2;
+      background-color: white;
+      position: relative;
+      top: 70px;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+  
+      // > * {
+      //   width: 100vw;
+      //   height: calc(100vh - 70px);
+      //   scroll-snap-align: start;
+      // }
+    }
+  }

@@ -1,0 +1,56 @@
+@import "../../global.scss";
+.f-home{
+    background-color: white;
+    flex-wrap: wrap;
+    color: $mainColor;
+    display: flex;
+    justify-content: space-evenly;
+    .fr-left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      button{
+        margin-top: 30px;
+        background-color: $mainColor;
+        width: auto;
+        height: auto;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+    }
+    .fr-right{
+      // flex: 6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // img{
+      //     height: 400px;
+      //     width: 400px;
+      //     margin-right: 50px;
+      // }
+    }
+}
+@media only screen and(max-width:440px){
+   .fr-right
+   {
+    img{
+     width: 100%;
+     height: 300px;
+     margin: 0;
+   }
+  }
+  .fr-left{
+    p{
+      font-size: 30px;
+    }
+  }
+}

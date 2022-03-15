@@ -1,0 +1,89 @@
+@import "../../global.scss";
+.contact {
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    .head{
+        font-size: 32px;
+        font-weight: 800;
+        color: $mainColor;
+        margin-top: 70px !important;
+        margin: 30px 0px;
+        letter-spacing: 1px;
+    }
+    .card{
+        width: 50%;
+        height: 67%;
+        background-color: $mainColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        *:focus{
+            outline: none;
+        }
+        .name{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           .firstName,.lastName{
+               height:30px;
+               width: 200px;
+               border-radius: 10px;
+               margin: 15px 20px;
+               padding: 2px 20px;
+               font-size: 16px;
+               font-weight: 400;
+           }
+        }
+        .fields{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .subject, .email{
+                height: 30px;
+                width: 490px;
+                border-radius: 10px;
+                margin: 15px 20px;
+                padding: 2px 20px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .message{
+                width: 510px;
+                height: 200px;
+                padding: 10px;
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                margin: 15px;
+            }
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 14px;
+            margin: 20px;
+        }
+    }
+    span{
+        font-size: 24px;
+        font-weight: 800;
+        color: $mainColor;
+        margin: 25px 0px; 
+    }
+    .icons{
+        .icon{
+            height: 30px !important;
+            width: 30px !important;
+            color: $mainColor;
+            margin: 0px 10px;
+        }
+    }
+  }

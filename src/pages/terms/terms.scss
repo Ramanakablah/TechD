@@ -1,0 +1,60 @@
+@import "../../global.scss";
+.terms {
+  width: 100%;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .sections {
+    width: 100%;
+    margin-top: 70px;
+    // background-image: url(../../assets/TCbg.png);
+    background-color: #cccccc;
+    height: 1400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span {
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin: 15px 0;
+      color: $mainColor;
+    }
+    .content {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(245, 243, 243, 0.86);
+      padding: 20px;
+      border-radius: 20px;
+      h1 {
+        font-size: 26px;
+        font-weight: 400;
+        color: $mainColor;
+        margin: 10px 0px;
+        margin-top: 35px;
+      }
+      p {
+        margin: 10px;
+        line-height: 25px;
+        font-size: 16px;
+      }
+      ol {
+        list-style-type: decimal;
+        list-style-position: inside;
+        li {
+          margin: 8px;
+          line-height: 25px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

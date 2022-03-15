@@ -1,0 +1,26 @@
+.date{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: #384883;
+    position: absolute;
+    top: 240px;
+    right: 8px; 
+    z-index: 4;
+}
+.card{
+    position: relative;
+}
+.blockheading{
+    margin: 30px 0px ;
+}
+.top{
+    text-align: center;
+    color: white;
+}
+.bottomtext{
+    overflow: hidden;
+    text-align: center;
+}

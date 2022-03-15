@@ -1,0 +1,45 @@
+@import "../../global.scss";
+.stats{
+    background-color: $mainColor;
+    // height: calc((100vh - 70px)/2) !important;
+    height: auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 3px;
+    color: white;
+    h1{
+        font-size: 38px;
+        margin: 40px;
+        font-weight: 700;
+    }
+    .itemContainer{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: space-around;
+        .items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 80px;
+            img{
+                height: 100px;
+                width: 100px;
+                margin-bottom: 10px;
+            }
+            .statistics{
+                font-size: 30px;
+                font-weight: 700;
+                text-align: left;
+            }
+            .desc{
+                font-size: 16px;
+                
+            }
+        }
+    }
+}
