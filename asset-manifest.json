@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TechD/static/css/main.d8570619.chunk.css",
-    "main.js": "/TechD/static/js/main.7b80e460.chunk.js",
-    "main.js.map": "/TechD/static/js/main.7b80e460.chunk.js.map",
-    "runtime-main.js": "/TechD/static/js/runtime-main.73464ea9.js",
-    "runtime-main.js.map": "/TechD/static/js/runtime-main.73464ea9.js.map",
-    "static/js/2.9d68310b.chunk.js": "/TechD/static/js/2.9d68310b.chunk.js",
-    "static/js/2.9d68310b.chunk.js.map": "/TechD/static/js/2.9d68310b.chunk.js.map",
-    "index.html": "/TechD/index.html",
-    "static/css/main.d8570619.chunk.css.map": "/TechD/static/css/main.d8570619.chunk.css.map",
-    "static/js/2.9d68310b.chunk.js.LICENSE.txt": "/TechD/static/js/2.9d68310b.chunk.js.LICENSE.txt",
-    "static/media/Login.css": "/TechD/static/media/LoginB.19472b51.png",
-    "static/media/register.css": "/TechD/static/media/Sign in.640c60fe.png"
+    "main.css": "/static/css/main.2cb43145.chunk.css",
+    "main.js": "/static/js/main.7b80e460.chunk.js",
+    "main.js.map": "/static/js/main.7b80e460.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f4ceb4bd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f4ceb4bd.js.map",
+    "static/js/2.9d68310b.chunk.js": "/static/js/2.9d68310b.chunk.js",
+    "static/js/2.9d68310b.chunk.js.map": "/static/js/2.9d68310b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2cb43145.chunk.css.map": "/static/css/main.2cb43145.chunk.css.map",
+    "static/js/2.9d68310b.chunk.js.LICENSE.txt": "/static/js/2.9d68310b.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/static/media/LoginB.19472b51.png",
+    "static/media/register.css": "/static/media/Sign in.640c60fe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73464ea9.js",
+    "static/js/runtime-main.f4ceb4bd.js",
     "static/js/2.9d68310b.chunk.js",
-    "static/css/main.d8570619.chunk.css",
+    "static/css/main.2cb43145.chunk.css",
     "static/js/main.7b80e460.chunk.js"
   ]
 }
