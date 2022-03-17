@@ -67,8 +67,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <i class="fab fa-firstdraft" />
-          TechD
+           <img src="assets/Navbar-logo.jpeg" alt="" className="navbar-logo-face" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -87,10 +86,10 @@ function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link to="/updates" className="nav-links" onClick={closeMobileMenu}>
+            <div className="nav-links" onClick={closeMobileMenu}>
               Updates
-              {/* <i className="fas fa-caret-down" /> */}
-            </Link>
+              <i className="fa-solid fa-caret-down" />
+            </div>
             {dropdown && <Dropdown />}
           </li>
           <li
@@ -98,14 +97,13 @@ function Navbar() {
             onMouseEnter={onMouseEnter2}
             onMouseLeave={onMouseLeave2}
           >
-            <Link
-              to="/community"
+            <div
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Coummunity
-              {/* <i className="fas fa-caret-down" /> */}
-            </Link>
+              <i className="fa-solid fa-caret-down" />
+            </div>
             {dropdown2 && <Dropdown2 />}
           </li>
 
@@ -114,14 +112,13 @@ function Navbar() {
             onMouseEnter={onMouseEnter3}
             onMouseLeave={onMouseLeave3}
           >
-            <Link
-              to="/resources"
+            <div
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Resources
-              {/* <i className="fas fa-caret-down" /> */}
-            </Link>
+              <i className="fa-solid fa-caret-down" />
+            </div>
             {dropdown3 && <Dropdown3 />}
           </li>
           {/* <li className="nav-item">

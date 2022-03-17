@@ -17,7 +17,7 @@
             align-items: center;
             img{
                 width: 100%;
-                // height: 450px;
+                height: 450px;
                 // padding: 20px;
             }
         }
@@ -62,6 +62,7 @@
                         flex-direction: column;
                         align-items: center;
                         justify-content: space-around;
+                        gap: 1rem 0;
                         span{
                             color: $mainColor;
                             font-size: 24px;
@@ -86,6 +87,7 @@
                             border-radius: 20px;
                             border: none;
                             font-size: 16px;
+                            margin: 10px;
                             background-color: $mainColor;
                             color: white;
                         }
@@ -105,8 +107,15 @@
                     border-radius: 20px;
                     word-spacing: 3px;
                     letter-spacing: 1px;
+                    margin: 15px;
                 }
             }
         }
     }
 }  
+
+@media only screen and (max-width:600px){
+    .jobs .sections .head img{
+        height: 200px;
+    }
+}

@@ -6,8 +6,19 @@
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
+.navbar i{
+  margin: 6px;
+}
+.navbar-logo-face{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
 .navbar-logo {
   size: 1.5cm;
   /* background-image: url(https://media-exp1.licdn.com/dms/image/C560BAQEzlrrXr2ZyUw/company-logo_200_200/0/1624792586957?e=1640217600&v=beta&t=Kn_CLQNIYJOh1t3n34V7N9sLKlrprGFglJQiZlEKHfU); */

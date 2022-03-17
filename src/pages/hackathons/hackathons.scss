@@ -14,6 +14,7 @@
         justify-content: center;
         flex-direction: column;
         img{
+            height: 350px;
             width: 85%;
         }
         .h-card{
@@ -141,7 +142,7 @@
                     width: fit-content;
                     color: white;
                     font-size: 18px;
-                    margin: 10x;
+                    margin: 10px;
                     outline: none;
                     border: none;
                     border-radius: 20px;
@@ -261,4 +262,8 @@
     .h-card{
         flex-grow: 1;
     }
+
+    .hackathons .sections img{
+            height: 200px;
+        }
 }

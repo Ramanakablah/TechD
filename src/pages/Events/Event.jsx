@@ -22,15 +22,15 @@ const Events = () => {
         </div>
 
         <div className="part1">
-            <Card type={"Featured Event"} />
+            <Card type={"Featured Event"} status={"Register Now"}/>
         </div>
 
         <div className="part2">
-            <Card type={"Upcoming Event"} />
+            <Card type={"Upcoming Event"} status={"Register Now"}/>
         </div>
 
         <div className="part3">
-            <Card type={"Past Event"} />
+            <Card type={"Past Event"} status={"Show details"}/>
         </div>
         <Footer />
 
