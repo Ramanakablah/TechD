@@ -8,6 +8,7 @@
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
+  color: #384883;
 }
 
 .dropdown-menu li {
@@ -15,8 +16,9 @@
   cursor: pointer;
 }
 
-.dropdown-menu li:hover {
-  background: white;
+.dropdown-menu li:hover .dropdown-link{
+  background-color: #384883;
+  color: white;
 }
 
 .dropdown-menu.clicked {
@@ -26,7 +28,6 @@
 .dropdown-link {
   display: block;
   text-decoration: none;
-  color: #384883;
   padding: 16px;
 }
 
