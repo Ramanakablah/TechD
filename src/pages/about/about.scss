@@ -21,8 +21,8 @@
             margin: 30px 20px;
         }
         img{
-            width: clamp(50% , 80% , 95%) ;
-            height: 450px;
+            width: 55% ;
+            height: 350px;
             margin-bottom: 70px;
             // @media (max-width: 943px) {
             //     .a-section{
@@ -99,13 +99,15 @@
                 // height: 300px;
                 flex-wrap: wrap;
                 display: flex;
+                gap: 2rem;
                 justify-content: center;
                 .a-achieve-card{
                     height: 150px;
                     width: 200px;
                     border-radius: 10px;
                     border: 3px solid rgb(228, 229, 231);
-                    z-index: 10;
+                    z-index: 7;
+                    margin: 10px;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -200,6 +202,7 @@
               flex-direction: column;
               align-items: center;
               justify-content: center;
+              padding: 1.3rem 0;
               span{
                   font-size: 32px;
               }
@@ -287,19 +290,19 @@
 }
 
 @media only screen and (max-width: 943px) {
-    .a-section{
-        img{
+    
+    .a-about .a-sections img {
             width: 80%;
         }
-    }    
+       
 }
 
 @media only screen and (max-width: 460px){
-    .a-section{
-        img{
+    
+    .a-about .a-sections img {
             width: 95%;
         }
-    } 
+    
     .a-cardWrapper{
         flex-basis: 100%;
     }
